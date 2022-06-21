@@ -84,7 +84,7 @@ namespace Iskra2Patch {
 
 			plugin_instance = this;
 
-			ModAudioManager.LoadCustomEvents("iskra", Application.persistentDataPath + "/Guns/Iskra_2/Sounds");
+			ModAudioManager.LoadCustomEvents("iskra", Application.persistentDataPath + "/Guns/Iskra2/Sounds");
 
 			Harmony.CreateAndPatchAll(this.GetType());
 			Harmony.CreateAndPatchAll(typeof(PopulateItemsTranspiler));
