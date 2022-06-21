@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net46</TargetFramework>
     <AssemblyName>Iskra2Patch</AssemblyName>
-    <Description>My first plugin</Description>
+    <Description>Plugin for Iskra 2 mod</Description>
     <Version>1.0.0</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
@@ -25,11 +25,14 @@
   </ItemGroup>
   
   <ItemGroup>
-    <Reference Include="FMODDef">
-      <HintPath>lib\FMODDef.dll</HintPath>
+    <Reference Include="R2CustomSounds">
+      <HintPath>lib\R2CustomSounds.dll</HintPath>
+    </Reference>
+    <Reference Include="SimpleJSON">
+      <HintPath>lib\SimpleJSON.dll</HintPath>
     </Reference>
     <Reference Include="Wolfire.Receiver2">
-      <HintPath>..\WhiskeyPatch\lib\Wolfire.Receiver2.dll</HintPath>
+      <HintPath>lib\Wolfire.Receiver2.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>
